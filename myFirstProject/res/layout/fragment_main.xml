@@ -9,8 +9,28 @@
     tools:context="com.example.myfirstproject.MainActivity$PlaceholderFragment" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="33dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
